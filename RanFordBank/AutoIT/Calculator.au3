@@ -1,0 +1,6 @@
+WinActivate("Calulator")
+ControlClick("Calculator","","[CLASS:Button; INSTANCE:16]")
+ControlClick("Calculator","","[CLASS:Button; INSTANCE:25]")
+ControlClick("Calculator","","[CLASS:Button; INSTANCE:16]")
+ControlClick("Calculator","","[CLASS:Button; INSTANCE:30]")
+ControlGetText("Calculator","","[CLASS:#32770; INSTANCE:2]")

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.ranFordBank.RanFordBank.TestExecution">
+        <methods>
+          <include name="varify_excelcontent"/>
+          <include name="varify_launch"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- com.ranFordBank.RanFordBank.TestExecution -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

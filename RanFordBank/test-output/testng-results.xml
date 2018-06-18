@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[launch test pass]]>
+    </line>
+    <line>
+      <![CDATA[login test pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44142" started-at="2018-06-17T11:35:27Z" finished-at="2018-06-17T11:36:11Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="44142" started-at="2018-06-17T11:35:27Z" finished-at="2018-06-17T11:36:11Z">
+      <class name="com.ranFordBank.RanFordBank.TestExecution">
+        <test-method status="PASS" signature="varify_launch(java.lang.String)[pri:0, instance:com.ranFordBank.RanFordBank.TestExecution@13b32d7]" name="varify_launch" is-config="true" duration-ms="37346" started-at="2018-06-17T17:05:27Z" finished-at="2018-06-17T17:06:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[launch test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_launch -->
+        <test-method status="PASS" signature="verify_Login()[pri:1, instance:com.ranFordBank.RanFordBank.TestExecution@13b32d7]" name="verify_Login" duration-ms="3700" started-at="2018-06-17T17:06:04Z" finished-at="2018-06-17T17:06:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Login -->
+        <test-method status="SKIP" signature="varify_excelcontent(java.lang.String)[pri:2, instance:com.ranFordBank.RanFordBank.TestExecution@13b32d7]" name="varify_excelcontent" duration-ms="0" started-at="2018-06-17T17:06:08Z" finished-at="2018-06-17T17:06:08Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method varify_excelcontent requires 1 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method varify_excelcontent requires 1 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varify_excelcontent -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.ranFordBank.RanFordBank.TestExecution@13b32d7]" name="closeApplication" is-config="true" duration-ms="3048" started-at="2018-06-17T17:06:08Z" finished-at="2018-06-17T17:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.ranFordBank.RanFordBank.TestExecution -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
